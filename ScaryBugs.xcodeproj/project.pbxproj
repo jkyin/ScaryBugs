@@ -16,7 +16,6 @@
 		2D42081F18BC3BD5003D98CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D42081D18BC3BD5003D98CF /* Main.storyboard */; };
 		2D42082218BC3BD5003D98CF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D42082118BC3BD5003D98CF /* MasterViewController.m */; };
 		2D42082518BC3BD5003D98CF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D42082418BC3BD5003D98CF /* DetailViewController.m */; };
-		2D42082718BC3BD5003D98CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D42082618BC3BD5003D98CF /* Images.xcassets */; };
 		2D42082E18BC3BD5003D98CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D42082D18BC3BD5003D98CF /* XCTest.framework */; };
 		2D42082F18BC3BD5003D98CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D42080B18BC3BD5003D98CF /* Foundation.framework */; };
 		2D42083018BC3BD5003D98CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D42080F18BC3BD5003D98CF /* UIKit.framework */; };
@@ -38,7 +37,9 @@
 		2D42086918BC4AD6003D98CF /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D42086618BC4AD6003D98CF /* shockedface2_empty.png */; };
 		2D42086A18BC4AD6003D98CF /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D42086718BC4AD6003D98CF /* shockedface2_full.png */; };
 		2D42086B18BC4AD6003D98CF /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D42086818BC4AD6003D98CF /* shockedface2_half.png */; };
-		2D42086D18BC4AFD003D98CF /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D42086C18BC4AFD003D98CF /* logo1.png */; };
+		2D42086E18BC7952003D98CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D42082618BC3BD5003D98CF /* Images.xcassets */; };
+		2D42087818BC82E7003D98CF /* icon_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D42087718BC82E7003D98CF /* icon_120x120.png */; };
+		2D42087A18BC8413003D98CF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D42087918BC8413003D98CF /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +94,8 @@
 		2D42086618BC4AD6003D98CF /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
 		2D42086718BC4AD6003D98CF /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
 		2D42086818BC4AD6003D98CF /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_half.png; sourceTree = "<group>"; };
-		2D42086C18BC4AFD003D98CF /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		2D42087718BC82E7003D98CF /* icon_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120x120.png; sourceTree = "<group>"; };
+		2D42087918BC8413003D98CF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +177,6 @@
 				2D42085118BC483D003D98CF /* potatoBugThumb.jpg */,
 				2D42085218BC483D003D98CF /* wolfSpider.jpg */,
 				2D42085318BC483D003D98CF /* wolfSpiderThumb.jpg */,
-				2D42082618BC3BD5003D98CF /* Images.xcassets */,
 				2D42081318BC3BD5003D98CF /* ScaryBugs-Info.plist */,
 				2D42081418BC3BD5003D98CF /* InfoPlist.strings */,
 				2D42081718BC3BD5003D98CF /* main.m */,
@@ -212,6 +213,7 @@
 				2D42082118BC3BD5003D98CF /* MasterViewController.m */,
 				2D42082318BC3BD5003D98CF /* DetailViewController.h */,
 				2D42082418BC3BD5003D98CF /* DetailViewController.m */,
+				2D42082618BC3BD5003D98CF /* Images.xcassets */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -251,7 +253,8 @@
 				2D42086618BC4AD6003D98CF /* shockedface2_empty.png */,
 				2D42086718BC4AD6003D98CF /* shockedface2_full.png */,
 				2D42086818BC4AD6003D98CF /* shockedface2_half.png */,
-				2D42086C18BC4AFD003D98CF /* logo1.png */,
+				2D42087718BC82E7003D98CF /* icon_120x120.png */,
+				2D42087918BC8413003D98CF /* Default.png */,
 			);
 			name = Art;
 			sourceTree = "<group>";
@@ -332,8 +335,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D42082718BC3BD5003D98CF /* Images.xcassets in Resources */,
 				2D42085C18BC483D003D98CF /* wolfSpiderThumb.jpg in Resources */,
+				2D42086E18BC7952003D98CF /* Images.xcassets in Resources */,
 				2D42085718BC483D003D98CF /* ladybug.jpg in Resources */,
 				2D42081618BC3BD5003D98CF /* InfoPlist.strings in Resources */,
 				2D42085518BC483D003D98CF /* centipede.jpg in Resources */,
@@ -341,12 +344,13 @@
 				2D42085B18BC483D003D98CF /* wolfSpider.jpg in Resources */,
 				2D42085618BC483D003D98CF /* centipedeThumb.jpg in Resources */,
 				2D42081F18BC3BD5003D98CF /* Main.storyboard in Resources */,
+				2D42087818BC82E7003D98CF /* icon_120x120.png in Resources */,
 				2D42085818BC483D003D98CF /* ladybugThumb.jpg in Resources */,
 				2D42085A18BC483D003D98CF /* potatoBugThumb.jpg in Resources */,
 				2D42085918BC483D003D98CF /* potatoBug.jpg in Resources */,
 				2D42086A18BC4AD6003D98CF /* shockedface2_full.png in Resources */,
 				2D42086918BC4AD6003D98CF /* shockedface2_empty.png in Resources */,
-				2D42086D18BC4AFD003D98CF /* logo1.png in Resources */,
+				2D42087A18BC8413003D98CF /* Default.png in Resources */,
 				2D42086B18BC4AD6003D98CF /* shockedface2_half.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,7 +507,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
 				INFOPLIST_FILE = "ScaryBugs/ScaryBugs-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -517,7 +521,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
 				INFOPLIST_FILE = "ScaryBugs/ScaryBugs-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
